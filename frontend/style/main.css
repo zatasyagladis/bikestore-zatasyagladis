@@ -1,0 +1,555 @@
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 28px;
+    
+}
+
+.nav-item {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+
+.nav-item .nav-link.active {
+    font-weight: 600;
+    color: #FFBD37 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: #FFBD37 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Hero Section */
+.hero-section {
+    margin-top: 45px;
+}
+.hero-section h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 52px;
+}
+
+.hero-section p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.hero-section  .btn-cta {
+    margin-top: 80px;
+}
+
+.hero-section .btn-cta img {
+    width: 67px;
+}
+
+.hero-section .btn {
+    border-radius: 0px 18px 18px 0px;
+    margin-left: 15px;
+}
+/* Akhir Hero Section */
+
+.section-title {
+    border-bottom: 3px solid #FFBD37;
+    width: 8%;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Categories */
+.tag {
+    z-index: 1;
+    background-color: #FFBD37;
+    padding: 0.25rem 1.25rem;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    border-radius: 0px 20px;
+    min-height: 30px;
+}
+
+.component-categories {
+    margin-bottom: 32px;
+}
+
+.tag span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+
+.categories-thumbnail {
+    width: 100%;
+    height: 462px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.categories-thumbnail-small{
+    width: 100%;
+    height: 215px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.categories-thumbnail:hover .categories-img{
+    transform: scale(1.1);
+}
+
+.categories-thumbnail-small:hover .categories-img{
+    transform: scale(1.1);
+
+}
+    
+
+
+.categories-img {
+    width: 100%;
+    height: 100%;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: all 0.3s ease;
+}
+/* Tutup Categories */
+
+/* Popular Product */
+.popular-products {
+    padding-top: 50px;
+    padding-bottom: 36px;
+    background: #F3F3F3;
+}
+
+.component-products {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    background: #ffffff;
+    width: 100%;
+    height: 72%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: #000000;
+    padding-bottom: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.component-products:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+
+    transition: all 0.3s ease;
+}
+
+
+.products-img { 
+    padding: 0.5rem;   
+    border-radius: 8px 8px;
+    background: #f6fafd;
+}
+
+.products-text {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #171938;
+}
+
+.products-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #E98015;
+
+}
+
+/* Tutup Popular Product */
+
+/* Testimonial */
+.testimonial {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.testiimonial-img {
+    z-index: 1;
+    position: absolute;
+    margin: 30px 0px 0px 30px;
+}
+
+.testimonial-frame {
+    width: 365px;
+    height: 500px;
+}
+
+.testimonial-text {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #000000;
+}
+
+.testimonial-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: rgba(0, 0, 0, 0.3);
+
+}
+
+.btn-testimonial {
+    background: #FFBD37;
+
+    width: 150px;
+    height: 38px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+.btn-testimonial:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+
+    transform: scale(1.1);
+}
+/* Tutup Testimonial */
+
+/* Footer */
+
+.footer {
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #F5F4F5;
+
+}
+
+.footer h2  {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+
+    color: #000000;
+    }
+
+
+.footer h5 {
+    
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.footer p {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+    
+
+    color: #B0B0B0;
+
+}
+
+.footer-small {
+    background-color: #171938;
+    text-align: center;
+}
+
+.footer-small p {
+    font-family: 'Poppins';
+    font-weight: 500px;
+    font-size: 16px;
+
+    margin-top: 30px;
+    
+    color: #FFFFFF;
+}
+
+.footer-small a {
+    height: 200px;
+    margin-top: 200px;
+    font-weight: 500px;
+    font-size: 16px;
+    text-decoration: none;
+
+    color: #FFBD37;
+}
+/* Tutup Footer */
+
+
+/* Detail Products */
+.detail {
+    margin-top: 45px;
+}
+
+
+
+.detail h2 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 23px;
+
+    color: #BCBCBC;
+
+
+}
+/* Tutup Detail Products */
+
+/* Sepeda */
+.sepeda {
+    width: 100%;
+    height: 1000px;
+
+}
+
+.component-sepeda {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    background: #ffffff;
+    width: 100%;
+    height: 72%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: #000000;
+    padding-bottom: 8px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.component-sepeda:hover{
+    transform: scale(1.1);
+
+    transition: all 0.3s ease;
+}
+
+
+
+
+.sepeda-img {
+    width: 100%;
+    height: 100%;
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+.component-detail {
+    width: 100px;
+    height: 100px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: #000000;
+    padding-bottom: 8px;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.bycicle-img {
+    padding: 0.5rem;
+    border-radius: 8px 8px;
+}
+
+.sepeda-title {
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.booking-text h5 {
+    font-size: 20px;
+}
+.booking-text h1 {
+    font-size: 35px;
+    color: #5AAC9D;
+}
+
+.btn-cta {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.btn-cta p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    
+
+    color: #000000;
+
+}
+/* Tutup Sepeda */
+
+/* Booking Page */
+
+.booking-page {
+    font-size: 35px;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.booking-text p {
+    text-align: center;
+    font-size: small;
+}
+
+.booking-img {
+    width: 700px;
+    height: 100px;
+
+}
+
+.booking-text {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 68px;
+    margin-top: 15px;
+
+
+    color: #000000;
+}
+
+.booking-page p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 38px;
+
+    color: #BCBCBC;
+
+}
+
+.coklat-img {
+    margin-bottom: 10px;
+    margin-top: 18px;
+    width: 370px;
+    height: 397px;
+    text-align: left;
+}
+.coklat-text {
+    font-size: 20px;
+}
+
+.verikal_center {
+    border-left: 1px  solid;
+    height: 300px;
+    margin-top: 18px;
+}
+
+.transaksi {
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba( 0, 0, 0, 0,1);
+}
+
+form {
+    width: 250px;
+    margin: 20pxpx;
+    font-size: 20px;
+
+}
+form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 5px;
+    text-align: left;
+}
+
+
+/* Tutup Booking Page */
+
+/* Payment */
+.payment-text {
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+    margin-top: 20px;
+}
+.payment-img {
+    font-size: 20px;
+    margin: 0 8px 4px 0;
+    text-align: left;
+    padding: 10px;
+
+}
+.btn btn-cta:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+
+    transform: scale(1.1);
+    
+
+}
+
+.succes-img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-cta {
+
+
+}
+/* Tutup Payment */
